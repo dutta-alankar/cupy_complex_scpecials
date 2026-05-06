@@ -1,0 +1,4 @@
+cuda-pathfinder==1.5.4
+cupy-cuda13x==14.0.1
+numpy==2.4.4
+scipy==1.17.1
