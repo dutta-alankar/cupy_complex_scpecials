@@ -1,6 +1,8 @@
 # CuPy Complex Specials
 
-The motivation for this project is to enable fast computation on GPU of the Voigt profile using the Faddeeva function, which is essential for spectroscopic modeling of astronomical data.
+The motivation for this project is to enable fast computation on GPU of the Voigt profile using the Faddeeva function, which is essential for spectroscopic modeling of astronomical data. 
+
+Example usage: [Absorption spectra on AthenaK turbulent box simulations](https://gist.github.com/dutta-alankar/9435c4de60e43f56b1306a07c78a2032)
 
 This repository provides a CuPy implementation of special functions for complex arguments, which are currently unsupported in `cupyx.scipy.special`. These functions are based on the [Faddeeva package](http://ab-initio.mit.edu/Faddeeva) by Steven G. Johnson.
 
